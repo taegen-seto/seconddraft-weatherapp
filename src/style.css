@@ -3,10 +3,44 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+a {
+  color: #702283;
+}
+
 .weather-app {
   background-color: #cfffff;
   max-width: 600px;
   margin: 45px auto;
   border-radius: 15px;
-  padding: 30px;
+  padding: 40px;
+}
+
+header {
+  padding: 0 0 20px 0;
+}
+
+.search-form-input {
+  background-color: #cfffff;
+  border: 1px solid #69e9f5;
+  border-radius: 7px;
+  width: 80%;
+  padding: 15px 20px;
+  font-size: 16px;
+}
+
+.search-form-button {
+  background-color: #69e9f5;
+  border: none;
+  border-radius: 7px;
+  color: #702283;
+  padding: 15px 20px;
+  margin-left: 5px;
+  font-size: 16px;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  color: #69e9f5;
+  padding: 30px 0 0 0;
 }
