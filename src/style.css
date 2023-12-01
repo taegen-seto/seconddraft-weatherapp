@@ -37,6 +37,58 @@ header {
   margin-left: 5px;
   font-size: 16px;
 }
+main {
+  padding: 20px 0;
+}
+
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather-app-city {
+  margin: 0;
+  font-family: "Shadows Into Light Two", cursive;
+  font-size: 44px;
+  line-height: 48px;
+}
+
+.day {
+  font-size: 18px;
+}
+.time {
+  font-size: 18px;
+}
+
+.weather-app-details {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #768590;
+}
+
+.weather-app-details strong {
+  color: #702283;
+}
+
+.weather-app-temperature-container {
+  display: flex;
+}
+.weather-app-icon {
+  font-size: 44px;
+  margin-top: 22px;
+}
+
+.weather-app-temperature {
+  font-family: "Shadows Into Light Two", cursive;
+  font-size: 88px;
+  margin-left: 10px;
+}
+
+.weather-app-unit {
+  font-size: 28px;
+  margin-top: 16px;
+}
 
 footer {
   text-align: center;
